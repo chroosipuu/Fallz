@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3302D60A204DE4590093BE32 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3302D609204DE4590093BE32 /* RootViewController.swift */; };
+		3302D60C204DE9FF0093BE32 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3302D60B204DE9FF0093BE32 /* MenuViewController.swift */; };
+		3302D60E204DEA130093BE32 /* BallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3302D60D204DEA130093BE32 /* BallViewController.swift */; };
+		3302D610204DFB600093BE32 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3302D60F204DFB600093BE32 /* CustomCollectionViewCell.swift */; };
+		332A5313202A2AF600339FC3 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332A5312202A2AF600339FC3 /* CustomTableViewCell.swift */; };
+		33583039201FB5F100E09DB4 /* BrokenLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33583038201FB5F100E09DB4 /* BrokenLine.swift */; };
+		335956601F3A46C1006E6AAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3359565F1F3A46C1006E6AAC /* AppDelegate.swift */; };
+		335956661F3A46C1006E6AAC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335956651F3A46C1006E6AAC /* GameScene.swift */; };
+		335956681F3A46C1006E6AAC /* LeaderboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335956671F3A46C1006E6AAC /* LeaderboardViewController.swift */; };
+		3359566B1F3A46C1006E6AAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 335956691F3A46C1006E6AAC /* Main.storyboard */; };
+		3359566D1F3A46C1006E6AAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3359566C1F3A46C1006E6AAC /* Assets.xcassets */; };
+		338AFEA420181D75008A8675 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338AFEA320181D75008A8675 /* Line.swift */; };
+		33CFBDD32024060C00A1E843 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33CFBDD02024060B00A1E843 /* FBSDKLoginKit.framework */; };
+		33CFBDD42024060C00A1E843 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33CFBDD12024060B00A1E843 /* FBSDKCoreKit.framework */; };
+		33CFBDD52024060C00A1E843 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33CFBDD22024060B00A1E843 /* Bolts.framework */; };
+		33D9F56B207676D3003D537E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33D9F569207676D3003D537E /* Assets.xcassets */; };
+		33E231D0202114E700835AA5 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E231CF202114E700835AA5 /* GameViewController.swift */; };
+		33E3FAA72018E90F00F2F1E7 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E3FAA62018E90F00F2F1E7 /* Global.swift */; };
+		33E3FAA92018EAB600F2F1E7 /* Ball.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E3FAA82018EAB600F2F1E7 /* Ball.swift */; };
+		893B9BD722E3C725009680AD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 893B9BD622E3C725009680AD /* GoogleService-Info.plist */; };
+		994D36583DD230DF7D08A090 /* Pods_Fallz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9DF3418968577EE2FE6C7E /* Pods_Fallz.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3302D609204DE4590093BE32 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		3302D60B204DE9FF0093BE32 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		3302D60D204DEA130093BE32 /* BallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallViewController.swift; sourceTree = "<group>"; };
+		3302D60F204DFB600093BE32 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		332A5312202A2AF600339FC3 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		33583038201FB5F100E09DB4 /* BrokenLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrokenLine.swift; sourceTree = "<group>"; };
+		3359565C1F3A46C1006E6AAC /* Fallz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fallz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3359565F1F3A46C1006E6AAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		335956651F3A46C1006E6AAC /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		335956671F3A46C1006E6AAC /* LeaderboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardViewController.swift; sourceTree = "<group>"; };
+		3359566A1F3A46C1006E6AAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3359566C1F3A46C1006E6AAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		335956711F3A46C1006E6AAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		338AFEA320181D75008A8675 /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		33CFBDD02024060B00A1E843 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../../../../../Downloads/FacebookSDKs-iOS-4/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		33CFBDD12024060B00A1E843 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../../../../../Downloads/FacebookSDKs-iOS-4/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		33CFBDD22024060B00A1E843 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../../../../../Downloads/FacebookSDKs-iOS-4/Bolts.framework"; sourceTree = "<group>"; };
+		33D9F569207676D3003D537E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33E231CF202114E700835AA5 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		33E3FAA62018E90F00F2F1E7 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		33E3FAA82018EAB600F2F1E7 /* Ball.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ball.swift; sourceTree = "<group>"; };
+		4178F1EDFE015BDC5973635D /* Pods-Fallz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fallz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fallz/Pods-Fallz.debug.xcconfig"; sourceTree = "<group>"; };
+		4D9DF3418968577EE2FE6C7E /* Pods_Fallz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fallz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		893B9BD622E3C725009680AD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EBD0194A7EF358B208BED3FF /* Pods-Fallz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fallz.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fallz/Pods-Fallz.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		335956591F3A46C1006E6AAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33CFBDD32024060C00A1E843 /* FBSDKLoginKit.framework in Frameworks */,
+				33CFBDD42024060C00A1E843 /* FBSDKCoreKit.framework in Frameworks */,
+				994D36583DD230DF7D08A090 /* Pods_Fallz.framework in Frameworks */,
+				33CFBDD52024060C00A1E843 /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		335956531F3A46C1006E6AAC = {
+			isa = PBXGroup;
+			children = (
+				3359565E1F3A46C1006E6AAC /* Fallz */,
+				3359565D1F3A46C1006E6AAC /* Products */,
+				BA07B69358951A3AD7DBD2AB /* Pods */,
+				BDEC59833E459898A6F9DFF8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3359565D1F3A46C1006E6AAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3359565C1F3A46C1006E6AAC /* Fallz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3359565E1F3A46C1006E6AAC /* Fallz */ = {
+			isa = PBXGroup;
+			children = (
+				3359565F1F3A46C1006E6AAC /* AppDelegate.swift */,
+				33E3FAA62018E90F00F2F1E7 /* Global.swift */,
+				332A5312202A2AF600339FC3 /* CustomTableViewCell.swift */,
+				3302D60F204DFB600093BE32 /* CustomCollectionViewCell.swift */,
+				33E3FAAA2018EABF00F2F1E7 /* Objects */,
+				3395C7322024059A005FE0EE /* FacebookSDK */,
+				33E231D120211EF200835AA5 /* ViewControllers */,
+				337086692012815C004127A4 /* Scenes */,
+				335956771F3A46E1006E6AAC /* Storyboards */,
+				3359566C1F3A46C1006E6AAC /* Assets.xcassets */,
+				893B9BD622E3C725009680AD /* GoogleService-Info.plist */,
+				335956711F3A46C1006E6AAC /* Info.plist */,
+			);
+			path = Fallz;
+			sourceTree = "<group>";
+		};
+		335956771F3A46E1006E6AAC /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				335956691F3A46C1006E6AAC /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		337086692012815C004127A4 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				335956651F3A46C1006E6AAC /* GameScene.swift */,
+				33D9F569207676D3003D537E /* Assets.xcassets */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		3395C7322024059A005FE0EE /* FacebookSDK */ = {
+			isa = PBXGroup;
+			children = (
+				33CFBDD22024060B00A1E843 /* Bolts.framework */,
+				33CFBDD12024060B00A1E843 /* FBSDKCoreKit.framework */,
+				33CFBDD02024060B00A1E843 /* FBSDKLoginKit.framework */,
+			);
+			path = FacebookSDK;
+			sourceTree = "<group>";
+		};
+		33E231D120211EF200835AA5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3302D609204DE4590093BE32 /* RootViewController.swift */,
+				335956671F3A46C1006E6AAC /* LeaderboardViewController.swift */,
+				3302D60B204DE9FF0093BE32 /* MenuViewController.swift */,
+				3302D60D204DEA130093BE32 /* BallViewController.swift */,
+				33E231CF202114E700835AA5 /* GameViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		33E3FAAA2018EABF00F2F1E7 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				33E3FAA82018EAB600F2F1E7 /* Ball.swift */,
+				338AFEA320181D75008A8675 /* Line.swift */,
+				33583038201FB5F100E09DB4 /* BrokenLine.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		BA07B69358951A3AD7DBD2AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4178F1EDFE015BDC5973635D /* Pods-Fallz.debug.xcconfig */,
+				EBD0194A7EF358B208BED3FF /* Pods-Fallz.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BDEC59833E459898A6F9DFF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D9DF3418968577EE2FE6C7E /* Pods_Fallz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3359565B1F3A46C1006E6AAC /* Fallz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 335956741F3A46C1006E6AAC /* Build configuration list for PBXNativeTarget "Fallz" */;
+			buildPhases = (
+				3FBBB8E512FFE3724DC2A13B /* [CP] Check Pods Manifest.lock */,
+				335956581F3A46C1006E6AAC /* Sources */,
+				335956591F3A46C1006E6AAC /* Frameworks */,
+				3359565A1F3A46C1006E6AAC /* Resources */,
+				4A59AF4FF7514CED4F27B46B /* [CP] Embed Pods Frameworks */,
+				3398FF112045A28A004A640E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fallz;
+			productName = Fallz;
+			productReference = 3359565C1F3A46C1006E6AAC /* Fallz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		335956541F3A46C1006E6AAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Carl Henry Roosipuu";
+				TargetAttributes = {
+					3359565B1F3A46C1006E6AAC = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5A63LV8CS3;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 335956571F3A46C1006E6AAC /* Build configuration list for PBXProject "Fallz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 335956531F3A46C1006E6AAC;
+			productRefGroup = 3359565D1F3A46C1006E6AAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3359565B1F3A46C1006E6AAC /* Fallz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3359565A1F3A46C1006E6AAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3359566B1F3A46C1006E6AAC /* Main.storyboard in Resources */,
+				893B9BD722E3C725009680AD /* GoogleService-Info.plist in Resources */,
+				3359566D1F3A46C1006E6AAC /* Assets.xcassets in Resources */,
+				33D9F56B207676D3003D537E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3398FF112045A28A004A640E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" f7fb4d634a2c9d731dede5034a6457557588a643 1fafd68e5caebbc08e862345d0af51bfe0b1177fdc70135ebf274e62e522e29c";
+		};
+		3FBBB8E512FFE3724DC2A13B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fallz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A59AF4FF7514CED4F27B46B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fallz/Pods-Fallz-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fallz/Pods-Fallz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		335956581F3A46C1006E6AAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3302D60A204DE4590093BE32 /* RootViewController.swift in Sources */,
+				332A5313202A2AF600339FC3 /* CustomTableViewCell.swift in Sources */,
+				335956661F3A46C1006E6AAC /* GameScene.swift in Sources */,
+				3302D610204DFB600093BE32 /* CustomCollectionViewCell.swift in Sources */,
+				338AFEA420181D75008A8675 /* Line.swift in Sources */,
+				335956681F3A46C1006E6AAC /* LeaderboardViewController.swift in Sources */,
+				33583039201FB5F100E09DB4 /* BrokenLine.swift in Sources */,
+				335956601F3A46C1006E6AAC /* AppDelegate.swift in Sources */,
+				33E3FAA92018EAB600F2F1E7 /* Ball.swift in Sources */,
+				3302D60C204DE9FF0093BE32 /* MenuViewController.swift in Sources */,
+				3302D60E204DEA130093BE32 /* BallViewController.swift in Sources */,
+				33E3FAA72018E90F00F2F1E7 /* Global.swift in Sources */,
+				33E231D0202114E700835AA5 /* GameViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		335956691F3A46C1006E6AAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3359566A1F3A46C1006E6AAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		335956721F3A46C1006E6AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		335956731F3A46C1006E6AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		335956751F3A46C1006E6AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4178F1EDFE015BDC5973635D /* Pods-Fallz.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 5A63LV8CS3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Fallz",
+				);
+				INFOPLIST_FILE = Fallz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CHRoosipuu.Fallz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		335956761F3A46C1006E6AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBD0194A7EF358B208BED3FF /* Pods-Fallz.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 5A63LV8CS3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Fallz",
+				);
+				INFOPLIST_FILE = Fallz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CHRoosipuu.Fallz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		335956571F3A46C1006E6AAC /* Build configuration list for PBXProject "Fallz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				335956721F3A46C1006E6AAC /* Debug */,
+				335956731F3A46C1006E6AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		335956741F3A46C1006E6AAC /* Build configuration list for PBXNativeTarget "Fallz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				335956751F3A46C1006E6AAC /* Debug */,
+				335956761F3A46C1006E6AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 335956541F3A46C1006E6AAC /* Project object */;
+}
